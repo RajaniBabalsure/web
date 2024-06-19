@@ -1,0 +1,29 @@
+.box {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    animation: bg 3s ease-in-out infinite  alternate-reverse;
+    animation-duration: 3s;
+    margin: 60px auto;
+    animation-fill-mode: forwards;
+    animation: bg 3s ease-in-out infinite alternate;
+    break-before: 20px;
+
+}
+
+@keyframes bg {
+    from {
+        background-color: greenyellow;
+        rotate: 0deg;
+    }
+
+    to {
+        background-color: red;
+        rotate: 45deg;
+        scale: 2;
+        translate: 200px;
+    }
+
+
+
+}
