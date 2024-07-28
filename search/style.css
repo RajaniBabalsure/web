@@ -1,0 +1,55 @@
+*{
+    margin: 30;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(red, green, blue);
+
+}
+.box{
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background:#fff;
+    border-radius: 0px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(red, green, blue, alpha);
+    outline: none;
+
+}
+.box:hover input{
+    width: 300px;
+
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a.fas{
+    color: #1daf;
+    font-size: 10px;
+}
+.box:hover input{
+    width: 300px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fas{
+    color: #1daf;
+    font-size: 18px;
+}

@@ -1,0 +1,217 @@
+/*reset propeties*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.html,body{
+    width: 100%;
+    height: 700%;
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar{
+    width: 90%;
+    height: 80px;
+    background:black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.logo{
+    width: 5%;
+    height: 100%;
+}
+
+.logo img{
+    width: 100%;
+}
+.link{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 4px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-family: sans-serif;
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    
+}
+.home{
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    margin-top: 11%;
+}
+h1{
+    margin-left: 30%;
+    margin-top: 20%;
+    color: white;
+}
+p{
+    font-size: 20px;
+    
+}
+.home button{
+    margin-top: 29%;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    background: rgb(44, 175, 120);
+    
+}
+.Service{
+    height: 80vh;
+    background: black;
+    color: white;
+    padding-top: 100px;
+    display: flex30px;
+    align-items: center;
+    flex-direction: column;
+}
+.Service h1{
+    font-size: 50px;
+    margin-left: 41%;
+    margin-bottom: 2%;
+}
+.lists{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+}
+.list{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #afafaf;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.lists p{
+    width: 300px;
+    height: 300vh;
+}
+.lists img{
+    width: 150px;
+}
+/*service section completed*/
+
+.clients{
+    height: 30vh;
+    background:url(bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.clients h1{
+    font-size: 30px;
+    margin: 20px;
+    font-style: italic;
+}
+.images{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+
+}
+.images img{
+    height: 70%;
+    filter: drop-shadow(10px 10px 3px black);
+}
+.contact{
+    height: 70vh;
+    background: url();
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+.contact h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.input{
+    width: 500px;
+    margin-top: 20px;
+}
+.input input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.input label{
+    margin-top: 10px;
+
+}input label{
+    display: block;
+}
+footer{
+    background: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+
+}
+form button{
+    width: 30%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 40px;
+
+
+}
+form button:hover{
+    background: #889cbf;
+    transition: 0,3;
+}
+
+
