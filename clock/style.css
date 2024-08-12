@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 
-/*circle styling */
+/*Circle Styling */
 
 .circle{
     width: 200px;
@@ -23,15 +23,15 @@ body{
     position: absolute;
 }
 
-#cricle1{
+#cricle1 {
     background: rgb(252, 70, 107);
     background: linear-gradient(
         180deg,
         rgba(252, 70, 107, 1) 0%,
         rgba(63, 94, 251, 1) 100%
-         );
-    left: 39%;
-    animation: circle 10s linear infinite alternate;
+      );
+          left: 39%;
+          animation: circle 20s linear infinite alternate;
 }
 
 #circle2{
@@ -42,14 +42,15 @@ body{
         rgba(0, 212, 255, 1) 100%
     );
     right: 39%;
-    animation: circle 10s linear infinite alternate-reverse;
+    animation: circle 20s linear infinite alternate-reverse;
 }
+
 @keyframes circle{
-    from{
+    from {
         top: 25%;
     }
-    to{
-        top: 56;
+    to {
+        top: 56%;
     }
 }
 /*clock container*/
@@ -63,8 +64,8 @@ body{
     flex-direction: column;
     gap: 10px;
     backdrop-filter: blur(
-        10px
-    ); /*filters which will be applied on the background */
+         10px
+    );/*filters which will be applied on the background */
 }
 
 .box{

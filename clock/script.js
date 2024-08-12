@@ -1,6 +1,7 @@
-let hour = document.getElementById("hour");
-let minutes = document.getElementById("minutes");
-let seconds = document.getElementById("seconds");
+let hour = document.getElementById("Hour");
+let minutes = document.getElementById("Minutes");
+let seconds = document.getElementById("Seconds");
+
 
 function clock(){
     let data = new Date();
@@ -11,4 +12,6 @@ function clock(){
 
 clock();
 
-setInterval( clock,1000);  //function and time 1000ms
+setInterval(clock,1000);//function and time 1000ms
+
+
